@@ -10,7 +10,6 @@ import java.time.LocalDate;
 @Repository
 public class UserRepositoryImpl implements UserRepository {
     private static final String USER_TABLE_NAME = "user_table";
-    private static final String USER_ANSWER_TABLE_NAME = "user_answer_table";
     @Autowired
     private JdbcTemplate jdbcTemplate;
     @Override
